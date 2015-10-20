@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Caching;
+﻿using System.Web;
 
 namespace GruntBundling.Bundling
 {
@@ -12,11 +6,11 @@ namespace GruntBundling.Bundling
     {
         private static StaticAssetResolver assetResolver;
 
-        public static void Initialize (string assetsJsonPath, Cache cache)
+        public static void Initialize (StaticAssetResolver staticAssetResolver)
         {
             if (assetResolver == null)
             {
-                assetResolver = new StaticAssetResolver(assetsJsonPath, cache);
+                assetResolver = staticAssetResolver;
             }
         }
 

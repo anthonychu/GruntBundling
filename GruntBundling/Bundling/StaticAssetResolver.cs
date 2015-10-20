@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System.IO;
 using System.Web.Caching;
 using System.Diagnostics;
 
 namespace GruntBundling.Bundling
 {
-    class StaticAssetResolver
+    public class StaticAssetResolver
     {
         private string assetsJsonPath;
         private Cache cache;

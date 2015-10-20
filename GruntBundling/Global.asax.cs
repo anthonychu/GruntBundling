@@ -1,7 +1,4 @@
 ﻿using GruntBundling.Bundling;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -18,7 +15,7 @@ namespace GruntBundling
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            StaticAssets.Initialize(Server.MapPath("~/assets.json"), HttpContext.Current.Cache);
+            StaticAssets.Initialize(new StaticAssetResolver(Server.MapPath("~/assets.json"), HttpContext.Current.Cache));
         }
     }
 }
