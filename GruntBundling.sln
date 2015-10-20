@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GruntBundling", "GruntBundling\GruntBundling.csproj", "{5AA36C8B-4C62-4455-8B46-55CAC8DDF140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{096AF06A-D7B4-4540-B7DF-A9793C67DB07}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AA36C8B-4C62-4455-8B46-55CAC8DDF140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA36C8B-4C62-4455-8B46-55CAC8DDF140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA36C8B-4C62-4455-8B46-55CAC8DDF140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA36C8B-4C62-4455-8B46-55CAC8DDF140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
